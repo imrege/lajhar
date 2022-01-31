@@ -1,0 +1,135 @@
+#fejlec {
+    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-color: rebeccapurple;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+#fejlectarto {
+    width: 70%;
+    margin: auto;
+}
+
+#fo {
+    background-color: palegreen;
+    text-align: justify;
+    padding: 20px;
+    font-size: 30px;
+    border-left-color: azure;
+    border-left-style: double;
+    border-left-width: 20px;
+    border-right-color: azure;
+    border-right-style: double;
+    border-right-width: 20px;
+}
+
+#fotarto {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: orange;
+    background-image: url("lajhar_hatter.jpg");
+    background-attachment: fixed;
+    background-size: 15%;
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+.kicsilajhar {
+    width: 30%;
+    border-radius: 50%;
+    border: lightslategrey double 15px;
+    padding: 10px;
+}
+
+.lajhar5 {
+    width: 20%;
+    float: left;
+}
+
+.kozepre {
+    text-align: center;
+}
+
+#alsolink {
+    font-size: 20px;
+    text-align: right;
+}
+
+#kicsiwiki {
+    width: 30px;
+}
+
+.kiemelt_lajhar {
+    color: red;
+    font-weight: bold;
+    border: 2px black solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.kep {
+    width: 20%;
+    float: right;
+    margin-left: 15px;
+}
+
+.torlo {
+    clear: both;
+}
+
+.harmad {
+    width: 33.33%;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.kepx {
+    width: 90%;
+    border: 5px solid darkblue;
+}
+
+#tabl_fent {
+    width: 100%;
+}
+
+#tabl_lent {
+    width: 100%;
+}
+
+.cella1 {
+    width: 33.3%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.go { /*a fenti linkek csoportja*/
+    margin-right: 20px;
+    background-color: orange;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.go:hover { /*rámutatáskor*/
+    background-color: teal;
+    color: yellow;
+}
+
+.go:active { /*amikor éppen most kattintunk*/
+    color: white;
+}
+
+.go:visited { /*ahol már jártunk*/
+    color: brown;
+}

@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+#rend #nocsik { /*a "rend" nevű táblázat "nocsik" nevű cellája*/
+    border-top: none;
+    border-left: none;
+}
+
+#rend {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#rend td { /*csak a "rend" nevű táblázat cellái*/
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 12.5%;
+    border: 2px solid black;
+}
+
+#fo {
+    width: 70%;
+    margin: auto;
+}
+
